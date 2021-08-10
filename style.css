@@ -7,6 +7,7 @@
 body {
   margin: 100px auto;
   max-width: 800px;
+  align-content: center;
 }
 
 h1,
@@ -101,7 +102,7 @@ p {
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
-    margin: 10px auto;
+    margin: 10px;
   }
 
   h2 {
@@ -115,5 +116,9 @@ p {
     display: block;
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .email-link {
+    font-size: 22px;
   }
 }
